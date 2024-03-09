@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Wastage Donation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Food Wastage Donation</h1>
+    </header>
+    <main>
+        <section id="donation-form">
+            <h2>Donate Food</h2>
+            <form id="foodDonationForm">
+                <label for="donorName">Your Name:</label>
+                <input type="text" id="donorName" required>
+                <label for="donorEmail">Your Email:</label>
+                <input type="email" id="donorEmail" required>
+                <label for="foodDescription">Food Description:</label>
+                <textarea id="foodDescription" rows="4" required></textarea>
+                <button type="submit">Donate</button>
+            </form>
+        </section>
+        <section id="donation-list">
+            <h2>Recent Donations</h2>
+            <ul id="donationList"></ul>
+        </section>
+    </main>
+    
+   
+    <script src="script.js"></script>
+    
+</body>
+</html>
